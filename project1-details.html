@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Project - Ipshita Sett | Frontend Developer</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <!-- <li><a href="services.html">Services</a></li> -->
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+      <a href="https://www.linkedin.com/in/ipshita-sett/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/IPSHITASETT"><i class="bi bi-github"></i></a>
+        <a href="https://wa.me/918961194757" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+  <a href="tel:+918961194757" aria-label="Phone"><i class="bi bi-telephone"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio Details</h2>
+        <p>Wallview - A modern media sharing platform built from scratch for secure, real-time content streaming across multiple devices.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="portfolio-details-media">
+              <div class="main-image">
+                <div class="portfolio-details-slider swiper init-swiper" data-aos="zoom-in">
+                  <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 1000,
+                      "autoplay": {
+                        "delay": 6000
+                      },
+                      "effect": "creative",
+                      "creativeEffect": {
+                        "prev": {
+                          "shadow": true,
+                          "translate": [0, 0, -400]
+                        },
+                        "next": {
+                          "translate": ["100%", 0, 0]
+                        }
+                      },
+                      "slidesPerView": 1,
+                      "navigation": {
+                        "nextEl": ".swiper-button-next",
+                        "prevEl": ".swiper-button-prev"
+                      }
+                    }
+                  </script>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/Projects/Wallview-allPlaylist.png" alt="Wallview Dashboard" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/Projects/Wallview-playlist.png" alt="Media Upload Interface" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/Projects/Wallview-playlist-view.png" alt="Sharing Features" class="img-fluid">
+                    </div>
+                     <div class="swiper-slide">
+                      <img src="assets/img/Projects/Wallview-gallery.png" alt="Gallery View" class="img-fluid">
+                    </div>
+                     <div class="swiper-slide">
+                      <img src="assets/img/Projects/Wallview-device.png" alt="Device Management" class="img-fluid">
+                    </div>
+                     <div class="swiper-slide">
+                      <img src="assets/img/Projects/Wallview-subscription.png" alt="Subscription Dashboard" class="img-fluid">
+                    </div>
+                     <div class="swiper-slide">
+                      <img src="assets/img/Projects/Wallview-subscription-plan.png" alt="Subscription Plans" class="img-fluid">
+                    </div>
+                     <div class="swiper-slide">
+                      <img src="assets/img/Projects/Wallview-account.png" alt="Account Management" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="row g-2 mt-3">
+                  <div class="col-3">
+                    <img src="assets/img/Projects/Wallview-allPlaylist.png" alt="Gallery Image" class="img-fluid glightbox">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/Projects/Wallview-playlist.png" alt="Gallery Image" class="img-fluid glightbox">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/Projects/Wallview-device.png" alt="Gallery Image" class="img-fluid glightbox">
+                  </div>
+                  <div class="col-3">
+                    <img src="assets/img/Projects/Wallview-subscription-plan.png" alt="Gallery Image" class="img-fluid glightbox">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-stack-badges" data-aos="fade-up" data-aos-delay="300">
+                <span>Next.js</span>
+                <span>Node.js</span>
+                <span>Redux Toolkit</span>
+                <span>Tailwind CSS</span>
+                <span>REST APIs</span>
+                <span>Square SDK</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="portfolio-details-content">
+              <div class="project-meta">
+                <div class="badge-wrapper">
+                  <span class="project-badge">Frontend Development</span>
+                  <span class="project-badge">Team Collaboration</span>
+                </div>
+                <div class="date-client">
+                  <div class="meta-item">
+                    <i class="bi bi-calendar-check"></i>
+                    <span>May 2024 - Aug 2024</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="bi bi-buildings"></i>
+                    <span>Production Application</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="bi bi-people"></i>
+                    <span>2-3 Person Team</span>
+                  </div>
+                </div>
+              </div>
+
+              <h2 class="project-title">Wallview - Multi-Platform Media Streaming Solution</h2>
+
+              <div class="project-website">
+                <i class="bi bi-link-45deg"></i>
+                <a href="https://dev.v2.wallview.net/" target="_blank">dev.v2.wallview.net</a>
+              </div>
+
+              <div class="project-overview">
+                <p class="lead">
+                  A production-grade multimedia platform that transforms how organizations and families share digital content. Built entirely from scratch with a small frontend team, Wallview delivers features including password-protected streaming, cross-device synchronization, and integrated payment processing for subscription management.
+                </p>
+
+                <div class="accordion project-accordion" id="portfolio-details-projectAccordion">
+                  <div class="accordion-item" data-aos="fade-up">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-1" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="bi bi-person-badge me-2"></i> My Technical Contributions
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-1" class="accordion-collapse collapse show" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body" style="color: #ffffff;">
+                        <p><strong>Project Context:</strong> Developed as a from-scratch project where our frontend team (2-3 developers) built the complete user interface based on Figma mockups. We worked closely with the backend team to integrate APIs and implement all features.</p>
+                        <br/>
+                        
+                        <p><strong>My Key Responsibilities:</strong></p>
+                        <br/>
+                        <p><strong>1. Complete Subscription & Payment Module (End-to-End Ownership):</strong></p>
+                        <ul>
+                          <li>Independently developed the entire subscription system from design to deployment</li>
+                          <li>Integrated Square Payment SDK for secure credit card processing</li>
+                          <li>Built subscription plan selection, upgrade/downgrade flows, and billing management</li>
+                          <li>Implemented payment processing with success/failure handling and user notifications</li>
+                          <li>Created subscription dashboard showing billing history and payment methods</li>
+                          <li>Handled edge cases like failed payments with retry mechanisms</li>
+                        </ul>
+                        <p><strong>2. Complete Authentication System Implementation:</strong></p>
+                        <ul>
+                          <li>Built user registration flow with email validation</li>
+                          <li>Developed secure login system with "remember me" functionality</li>
+                          <li>Implemented password recovery feature with email-based reset links</li>
+                          <li>Used cookie-based authentication for secure session management (tokens stored in cookies instead of localStorage for better security)</li>
+                          <li>Handled automatic session refresh to keep users logged in</li>
+                        </ul>
+                        <p><strong>3. Responsive UI Development from Figma Designs:</strong></p>
+                        <ul>
+                          <li>Converted Figma mockups into pixel-perfect, responsive interfaces using Tailwind CSS</li>
+                          <li>Ensured designs work seamlessly across mobile phones, tablets, desktops, and TV displays</li>
+                          <li>Built reusable components for consistent design throughout the application</li>
+                          <li>Implemented smooth animations and transitions for better user experience</li>
+                        </ul>
+                        <p><strong>4. Device Management System:</strong></p>
+                        <ul>
+                          <li>Developed device pairing feature allowing users to connect smart TVs and Firestick devices</li>
+                          <li>Built unique device code system for secure device-to-account linking</li>
+                          <li>Created device management dashboard showing all connected devices and their status</li>
+                          <li>Implemented remote playlist control so users can update content across devices</li>
+                        </ul>
+                        <p><strong>5. API Integration & Backend Collaboration:</strong></p>
+                        <ul>
+                          <li>Worked closely with backend developers to integrate RESTful APIs</li>
+                          <li>Implemented proper error handling and loading states for all API calls</li>
+                          <li>Used Redux Toolkit for state management and API caching</li>
+                          <li>Provided frontend requirements during API design discussions</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-2" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="bi bi-gear me-2"></i> Technology Stack Used
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-2" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body" style="color: #ffffff;">
+                        <p><strong>Frontend Technologies:</strong></p>
+                        <ul>
+                          <li><strong>Next.js:</strong> React framework for building the web application with server-side rendering for better performance and SEO</li>
+                          <li><strong>Redux Toolkit:</strong> For managing application state (like user data, playlists, subscription info) in a predictable way</li>
+                          <li><strong>Tailwind CSS:</strong> Utility-first CSS framework used to convert Figma designs into responsive UI quickly</li>
+                        </ul>
+
+                        <p><strong>Backend Integration:</strong></p>
+                        <ul>
+                          <li><strong>Node.js API:</strong> Backend server handling business logic and database operations (developed by backend team)</li>
+                          <li><strong>REST APIs:</strong> HTTP endpoints for communication between frontend and backend</li>
+                        </ul>
+
+                        <p><strong>Third-party Services:</strong></p>
+                        <ul>
+                          <li><strong>Square SDK:</strong> Payment gateway for processing credit card payments and managing subscriptions</li>
+                          <li><strong>AWS CloudFront:</strong> Content delivery network for fast loading of photos and videos globally</li>
+                        </ul>
+
+                        <p><strong>Development Approach:</strong></p>
+                        <ul>
+                          <li>Component-based development with reusable UI components</li>
+                          <li>Mobile-first responsive design approach</li>
+                          <li>Git version control with team collaboration</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-3" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="bi bi-exclamation-octagon me-2"></i> Challenges & Solutions
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-3" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body" style="color: #ffffff;">
+                        <p><strong>Challenge 1: Learning and Integrating Square Payment SDK</strong></p>
+                        <p><em>Problem:</em> Had to integrate Square Payment SDK for the first time without prior payment gateway experience. Needed to handle various payment scenarios like successful payments, failed payments, and card validation.</p>
+                        <p><em>Solution:</em> Studied Square's documentation thoroughly and implemented the SDK step by step. Created a test environment using Square's sandbox mode to test all scenarios before going live. Built comprehensive error messages to guide users when payments fail.</p>
+
+                        <p><strong>Challenge 2: Real-time Updates Across Multiple Devices</strong></p>
+                        <p><em>Problem:</em> When users update playlists on their phone, the changes need to show immediately on connected TVs without manual refresh.</p>
+                        <p><em>Solution:</em> Implemented instant UI updates (optimistic updates) so users see changes immediately. Used Redux to manage state and automatically refetch data when changes occur. Set up periodic checking for updates on connected devices.</p>
+
+                        <p><strong>Challenge 3: Secure Cookie-based Authentication</strong></p>
+                        <p><em>Problem:</em> Needed to implement secure authentication where login tokens are stored safely and can't be accessed by malicious scripts.</p>
+                        <p><em>Solution:</em> Used HTTP-only cookies (cookies that can't be accessed by JavaScript) instead of localStorage. This prevents hackers from stealing user sessions. Implemented automatic token refresh so users stay logged in seamlessly.</p>
+
+                        <p><strong>Challenge 4: Uploading Large Video Files</strong></p>
+                        <p><em>Problem:</em> Users needed to upload large video files (sometimes several GBs) without timeouts or failures.</p>
+                        <p><em>Solution:</em> Implemented chunked uploads where large files are broken into smaller pieces and uploaded one by one. Added progress bars showing upload percentage and estimated time remaining. If upload fails, users can resume from where it stopped.</p>
+
+                        <p><strong>Challenge 5: Making UI Work on TV Screens</strong></p>
+                        <p><em>Problem:</em> Designing interface that works well on both small phone screens and large TV screens with remote control navigation.</p>
+                        <p><em>Solution:</em> Started with mobile design first, then enhanced for larger screens. Made buttons bigger and navigation simpler for TV. Removed hover effects since TVs don't have mouse. Used CSS Grid and Flexbox for layouts that adapt to any screen size.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-4" aria-expanded="false" aria-controls="collapseFour">
+                        <i class="bi bi-list-check me-2"></i> Complete Feature List
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-4" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body" style="color: #ffffff;">
+                        <p><strong>User Authentication Features:</strong></p>
+                        <ul>
+                          <li>User registration with email verification</li>
+                          <li>Secure login with "remember me" option</li>
+                          <li>Password recovery via email reset link</li>
+                          <li>Profile management (update email, password, profile photo)</li>
+                          <li>Automatic session management</li>
+                        </ul>
+
+                        <p><strong>Subscription & Payment Features:</strong></p>
+                        <ul>
+                          <li>Multiple subscription plans (Free, Premium, Enterprise)</li>
+                          <li>Secure credit card processing via Square</li>
+                          <li>Subscription upgrade/downgrade with billing adjustments</li>
+                          <li>Payment method management (add, update, delete cards)</li>
+                          <li>Billing history with downloadable invoices</li>
+                          <li>Failed payment notifications with retry options</li>
+                          <li>Subscription cancellation</li>
+                        </ul>
+
+                        <p><strong>Media Management Features:</strong></p>
+                        <ul>
+                          <li>Drag-and-drop file upload with progress tracking</li>
+                          <li>Support for photos (JPEG, PNG) and videos (MP4, MOV)</li>
+                          <li>Create and organize playlists</li>
+                          <li>Password-protected shareable links</li>
+                          <li>Set expiration dates for share links</li>
+                          <li>Gallery view with lightbox</li>
+                          <li>Search and filter media files</li>
+                        </ul>
+
+                        <p><strong>Device Management Features:</strong></p>
+                        <ul>
+                          <li>Connect devices using unique pairing codes</li>
+                          <li>Support for smart TVs, Firestick, and web browsers</li>
+                          <li>View all connected devices in dashboard</li>
+                          <li>Send playlists to specific devices</li>
+                          <li>Control playback remotely (play, pause, skip)</li>
+                          <li>Disconnect and reconnect devices</li>
+                        </ul>
+
+                        <p><strong>Additional Features:</strong></p>
+                        <ul>
+                          <li>Slideshow mode with customizable timing</li>
+                          <li>Continuous loop for digital signage</li>
+                          <li>Scheduled playlist activation</li>
+                          <li>Privacy controls for media and playlists</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-features" data-aos="fade-up" data-aos-delay="300">
+                <h3><i class="bi bi-stars"></i> Technical Highlights</h3>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <ul class="feature-list">
+                      <li><i class="bi bi-check2-circle"></i> Built from Scratch (No Templates)</li>
+                      <li><i class="bi bi-check2-circle"></i> Square Payment Integration</li>
+                      <li><i class="bi bi-check2-circle"></i> Cookie-based Authentication</li>
+                      <li><i class="bi bi-check2-circle"></i> Complete Subscription System</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="feature-list">
+                      <li><i class="bi bi-check2-circle"></i> Responsive Design (Mobile to TV)</li>
+                      <li><i class="bi bi-check2-circle"></i> Real-time Device Sync</li>
+                      <li><i class="bi bi-check2-circle"></i> CDN-powered Media Delivery</li>
+                      <li><i class="bi bi-check2-circle"></i> Figma to Code Implementation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-highlights" data-aos="fade-up" data-aos-delay="350">
+                <h4><i class="bi bi-trophy"></i> Key Achievements</h4>
+                <ul class="highlights-list">
+                  <li>🚀 Independently developed complete payment and subscription module handling real transactions</li>
+                  <li>🔐 Implemented secure authentication system with cookie-based session management</li>
+                  <li>📱 Built responsive UI working seamlessly across mobile, tablet, desktop, and TV</li>
+                  <li>🎨 Converted Figma designs into production-ready code using Tailwind CSS</li>
+                  <li>🤝 Collaborated with backend developers for API integration</li>
+                  <li>⚡ Optimized performance with code splitting and CDN integration</li>
+                  <li>💳 Successfully integrated Square Payment SDK for secure transactions</li>
+                  <li>📊 Built comprehensive subscription management dashboard</li>
+                </ul>
+              </div>
+
+              <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://dev.v2.wallview.net/" target="_blank" class="btn-view-project">View Live Project</a>
+                <a href="portfolio.html" class="btn-next-project">Back to Portfolio <i class="bi bi-arrow-left"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+ <span style="color: #8ab4f8; font-weight: 600;">Thank you for visiting 💙 Talk to you soon!</span>
+        <a href="settipshita28@gmail.com"><i class="bi bi-envelope"></i></a>      
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/ipshita-sett/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/IPSHITASETT"><i class="bi bi-github"></i></a>
+        <a href="https://wa.me/918961194757" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+  <a href="tel:+918961194757" aria-label="Phone"><i class="bi bi-telephone"></i></a>
+      </div>
+      <div class="credits">
+        <!-- Designed by Your Name -->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
