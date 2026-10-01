@@ -1775,6 +1775,104 @@ section,
   color: var(--accent-color);
 }
 
+.resume .resume-path {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.resume .resume-path li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 13px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  color: color-mix(in srgb, var(--default-color), transparent 10%);
+}
+
+.resume .resume-path li + li::before {
+  content: "\2192";
+  margin-right: 8px;
+  margin-left: -4px;
+  color: var(--accent-color);
+}
+
+.resume .resume-path li.is-ai {
+  background: color-mix(in srgb, var(--accent-color), transparent 85%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 55%);
+  color: var(--heading-color);
+}
+
+.resume .resume-path li.is-ai i {
+  color: var(--accent-color);
+}
+
+.resume .resume-item .experience-item ul li {
+  padding-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+.resume .resume-item .education-item {
+  margin-bottom: 1.5rem;
+}
+
+.resume .resume-item .education-item .institution,
+.resume .resume-item .education-item p {
+  margin-bottom: 0.25rem;
+}
+
+.resume .skill-groups {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.resume .skill-group h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: var(--heading-color);
+}
+
+.resume .skill-group h4 i {
+  color: var(--accent-color);
+}
+
+.resume .skill-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.resume .skill-tags li {
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  background: color-mix(in srgb, var(--default-color), transparent 94%);
+  color: color-mix(in srgb, var(--default-color), transparent 10%);
+}
+
+.resume .skill-group.is-ai {
+  padding: 14px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 65%);
+}
+
 @media (max-width: 991.98px) {
   .resume .resume-item {
     margin-bottom: 2rem;
