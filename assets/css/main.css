@@ -3172,6 +3172,13 @@ section,
 
 .contact .info-box a {
   color: var(--contrast-color);
+  word-break: break-word;
+  transition: 0.3s;
+}
+
+.contact .info-box a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
 }
 
 @media (max-width: 992px) {
