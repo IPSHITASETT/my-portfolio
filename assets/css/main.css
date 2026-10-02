@@ -2694,6 +2694,91 @@ section,
   color: var(--accent-color);
 }
 
+/* Tech stack strip under the section intro */
+.portfolio .portfolio-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 860px;
+  margin: 20px auto 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio .portfolio-stack li {
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+  color: color-mix(in srgb, var(--default-color), transparent 15%);
+}
+
+.portfolio .portfolio-subheading {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  padding-left: 12px;
+  border-left: 3px solid var(--accent-color);
+}
+
+/* Equal-height cards with the action link pinned to the bottom */
+.portfolio .portfolio-grid .portfolio-card {
+  height: 100%;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio .portfolio-grid .portfolio-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio .portfolio-card .portfolio-info .portfolio-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 6px;
+}
+
+.portfolio .portfolio-card .portfolio-info .portfolio-link {
+  margin-top: auto;
+  padding-top: 16px;
+  align-self: flex-start;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.portfolio .portfolio-card .portfolio-info .portfolio-link i {
+  transition: transform 0.3s ease;
+}
+
+.portfolio .portfolio-card .portfolio-info .portfolio-link:hover i {
+  transform: translate(3px, -3px);
+}
+
+/* Smaller cards for the additional projects */
+.portfolio .portfolio-grid-compact .portfolio-card .portfolio-img {
+  height: 170px;
+}
+
+.portfolio .portfolio-grid-compact .portfolio-card .portfolio-info h4 {
+  font-size: 1.05rem;
+}
+
+@media (max-width: 575px) {
+  .portfolio .portfolio-card .portfolio-img {
+    height: 180px;
+  }
+}
+
 .portfolio .btn-primary {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
